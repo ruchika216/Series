@@ -13,7 +13,6 @@ import {
     Title,
     H1,
     Fab,
-    Subtitle,
     Container,
     Spinner,
     Center

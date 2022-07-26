@@ -12,7 +12,6 @@ import {
 
 import shortid from 'shortid'
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { log } from 'react-native-reanimated';
 
 const Add = ({navigation}) => {
     const [name, setName] = useState('')
@@ -22,7 +21,6 @@ const Add = ({navigation}) => {
         try {
             if (!name || !totalNoSeason) {
                 return alert('Please add both fields')
-                //TODO: all snackbar here
             }
 
             const seasonToAdd = {

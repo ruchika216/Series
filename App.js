@@ -1,14 +1,9 @@
 
 import React from 'react';
-import {
- Text
-} from 'react-native';
 
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-
-//bring in all screens
 import Home from './screens/Home'
 import Add from './screens/Add'
 import Edit from './screens/Edit'

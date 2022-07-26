@@ -1,21 +1,10 @@
 import React, {useState, useEffect} from 'react'
 import { ScrollView, StyleSheet} from 'react-native'
 import {
-    List,
-    ListItem,
-    Left,
     Text,
     Button,
-    Icon, 
-    Body, 
-    Right,
-    CheckBox,
-    Title,
     H1,
-    Fab,
-    Subtitle,
     Container,
-    Spinner,
     Form,
     Item,
     Input,
@@ -34,7 +23,6 @@ const Edit = ({navigation, route}) => {
         try {
             if (!name || !totalNoSeason) {
                 return alert("Please enter value in both field")
-                //TODO: add snackbar here
             }
 
             const seasontoUpdate = {
